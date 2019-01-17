@@ -1,0 +1,28 @@
+@startuml
+package no.kristiania.pgr200.db {
+abstract class AbstractDao{
+}
+class Conference extends Entity{
+}
+class ConferenceDao extends AbstractDao implements DataAccessObject{
+}
+interface DataAccessObject{
+}
+abstract class Entity{
+}
+class LocalDataSource{
+}
+interface ResultSetMapper{
+}
+class Talk extends Entity{
+}
+class TalkDao extends AbstractDao implements DataAccessObject{
+}
+class TestDataSource{
+}
+class Track extends Entity{
+}
+class TrackDao extends AbstractDao implements DataAccessObject{
+}
+}
+@enduml

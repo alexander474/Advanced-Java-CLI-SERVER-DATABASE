@@ -1,0 +1,79 @@
+@startuml
+package no.kristiania.pgr200.cli {
+class ClientMain {
+}
+
+class DecodeArgs {
+}
+
+class InteractiveClient {
+}
+
+class InteractiveRetrieve extends CommandHandler {
+}
+
+class InteractiveInsert extends CommandHandler {
+
+}
+
+class InteractiveUpdate extends CommandHandler {
+}
+
+class InteractiveDelete extends CommandHandler {
+}
+
+class InteractiveHelp extends CommandHandler {
+}
+
+abstract class CommandHandler {
+}
+
+class Command {
+}
+
+class StringCommand extends Command {
+}
+class NumberCommand extends Command {
+}
+class DateCommand extends Command {
+}
+class TimeCommand extends Command {
+}
+class BooleanCommand extends Command {
+}
+class BasicCommand extends Command {
+}
+
+class ParseCommands {
+}
+
+
+
+ClientMain -- DecodeArgs
+ClientMain -- ParseCommands
+Command -- ParseCommands
+
+DecodeArgs -- InteractiveClient
+
+InteractiveClient -- InteractiveInsert
+InteractiveClient -- InteractiveRetrieve
+InteractiveClient -- InteractiveUpdate
+InteractiveClient -- InteractiveDelete
+InteractiveClient -- InteractiveHelp
+
+}
+package no.kristiania.pgr200.io {
+class RequestHandler{
+}
+class Request{
+}
+class RequestBodyHandler{
+}
+class Response{
+}
+
+Request *-- RequestHandler
+Request -- RequestBodyHandler
+Response *-- RequestHandler
+}
+@enduml

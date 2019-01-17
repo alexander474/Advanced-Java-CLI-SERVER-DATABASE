@@ -1,0 +1,83 @@
+@startuml
+
+abstract class AbstractController{
+    handleRequest()
+    dbInsert()
+    dbUpdate()
+    dbDelete()
+    dbRetrieve
+}
+
+class ConferenceController extends AbstractController
+
+class TrackController extends AbstractController
+
+class TalkController extends AbstractController
+
+class HttpServerConfig
+
+class HttpServerRequest{
+}
+
+class HttpServerResponse{
+
+}
+
+interface HttpServerWriter{
+    write()
+}
+class HttpServerWriterResponse extends HttpServerWriter{
+}
+
+class Main{
+    main()
+}
+class HttpServerRouter{
+    route()
+}
+
+class HttpServerConnectionHandler{
+    run()
+}
+
+class HttpServerListener{
+    start()
+    serverThread()
+    stop()
+    getPort()
+}
+
+interface HttpServerRequestHandler{
+    handleRequest()
+}
+
+class HttpServerRequestHandlerBadHttpMethod extends HttpServerRequestHandler
+
+class HttpServerRequestHandlerCapi extends HttpServerRequestHandler{
+    requestMatches()
+    routeRequest()
+}
+
+class HttpServerRequestHandlerEcho extends HttpServerRequestHandler
+
+class HttpServerRequestHandlerURL extends HttpServerRequestHandler{
+    getFileContentType()
+}
+
+Main -- HttpServerConfig
+Main -- HttpServerListener
+HttpServerRequestHandlerCapi -- HttpServerRouter
+HttpServerRouter -- AbstractController
+HttpServerListener -- HttpServerConnectionHandler
+HttpServerConnectionHandler -- HttpServerParserRequest
+HttpServerParserRequest -- HttpServerRequest
+HttpServerRequest -- HttpServerConnectionHandler
+HttpServerConnectionHandler -- HttpServerResponse
+HttpServerConnectionHandler -- HttpServerRequestHandler
+HttpServerConnectionHandler -- HttpServerWriter
+
+
+
+
+
+@enduml

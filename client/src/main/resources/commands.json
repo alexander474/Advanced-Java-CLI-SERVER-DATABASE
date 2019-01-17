@@ -1,0 +1,519 @@
+[
+  {
+    "name":"title",
+    "description":"please enter title",
+    "type":"String",
+    "mode":"insert",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"description",
+    "description":"please enter description",
+    "type":"String",
+    "mode":"insert",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"date_start",
+    "description":"Insert a start date (dd-mm-yyyy)",
+    "type":"Date",
+    "mode":"insert",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"date_end",
+    "description":"Insert a end date (dd-mm-yyyy)",
+    "type":"Date",
+    "mode":"insert",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"all entries",
+    "description":"Do you want all entries in the table(Y/N)",
+    "type":"Boolean",
+    "mode":"retrieve",
+    "table":"conference",
+    "subQuestionValue":"FALSE",
+    "subQuestionName":[
+      "id"
+    ]
+  },
+  {
+    "name":"id",
+    "description":"Please specify the id you want to retrieve",
+    "type":"number",
+    "mode":"retrieve",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"id",
+    "description":"Please enter id of the object you want to update",
+    "type":"number",
+    "mode":"update",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"title",
+    "description":"Please enter a new title if you want to change it",
+    "type":"String",
+    "mode":"update",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"description",
+    "description":"Please enter a new description if you want to change it",
+    "type":"String",
+    "mode":"update",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"date_start",
+    "description":"Insert a new start date (dd-mm-yyyy) if you want to change it",
+    "type":"Date",
+    "mode":"update",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"date_end",
+    "description":"Insert a new end date (dd-mm-yyyy) if you want to change it",
+    "type":"Date",
+    "mode":"update",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"id",
+    "description":"Please enter the id of the object you want to delete",
+    "type":"number",
+    "mode":"delete",
+    "table":"conference",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"title",
+    "description":"Please enter title",
+    "type":"String",
+    "mode":"insert",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"description",
+    "description":"Please enter description",
+    "type":"String",
+    "mode":"insert",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"talk_location",
+    "description":"Insert a talk_location",
+    "type":"String",
+    "mode":"insert",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"talk_track_id",
+    "description":"Insert a talk_track id",
+    "type":"number",
+    "mode":"insert",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"timeslot",
+    "description":"Insert a timeslot (hh:mm)",
+    "type":"time",
+    "mode":"insert",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"all entries",
+    "description":"Do you want all entries in the table(Y/N)",
+    "type":"Boolean",
+    "mode":"retrieve",
+    "table":"talk",
+    "subQuestionValue":"FALSE",
+    "subQuestionName":[
+      "id"
+    ]
+  },
+  {
+    "name":"id",
+    "description":"Please specify the id you want to retrieve",
+    "type":"number",
+    "mode":"retrieve",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"id",
+    "description":"Please enter id of the object you want to update",
+    "type":"number",
+    "mode":"update",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"title",
+    "description":"Please enter a new title if you want to change it",
+    "type":"String",
+    "mode":"update",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"description",
+    "description":"Please enter a new description if you want to change it",
+    "type":"String",
+    "mode":"update",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"talk_location",
+    "description":"Insert a new talk_location if you want to change it",
+    "type":"String",
+    "mode":"update",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"talk_track_id",
+    "description":"Insert a new talk_track_id if you want to change it",
+    "type":"number",
+    "mode":"update",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"timeslot",
+    "description":"Insert a new timeslot if you want to change it",
+    "type":"time",
+    "mode":"update",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"id",
+    "description":"Please enter the id of the object you want to delete",
+    "type":"number",
+    "mode":"delete",
+    "table":"talk",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"title",
+    "description":"Insert a title",
+    "type":"string",
+    "mode":"insert",
+    "table":"track",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"description",
+    "description":"Insert a description",
+    "type":"string",
+    "mode":"insert",
+    "table":"track",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"track_conference_id",
+    "description":"Insert a track_conference_id",
+    "type":"number",
+    "mode":"insert",
+    "table":"track",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"all entries",
+    "description":"Do you want all entries in the table(Y/N)",
+    "type":"Boolean",
+    "mode":"retrieve",
+    "table":"track",
+    "subQuestionValue":"FALSE",
+    "subQuestionName":[
+      "id"
+    ]
+  },
+  {
+    "name":"id",
+    "description":"Please specify the id you want to retrieve",
+    "type":"number",
+    "mode":"retrieve",
+    "table":"track",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"id",
+    "description":"Please enter id of the object you want to update",
+    "type":"number",
+    "mode":"update",
+    "table":"track",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"title",
+    "description":"Please enter a new title if you want to change it",
+    "type":"String",
+    "mode":"update",
+    "table":"track",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"description",
+    "description":"Please enter a new description if you want to change it",
+    "type":"String",
+    "mode":"update",
+    "table":"track",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"track_conference_id",
+    "description":"Insert a new talk_location if you want to change it",
+    "type":"number",
+    "mode":"update",
+    "table":"track",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"id",
+    "description":"Please enter the id of the object you want to delete",
+    "type":"number",
+    "mode":"delete",
+    "table":"track",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"modes",
+    "description":"ex: insert|retrieve|update|delete",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"table",
+    "description":"Specify which table you want to modify/use",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"(-t)tables",
+    "description":"Display all the tables",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"(-h) help",
+    "description":"Displays the commands with description and type",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"(-i) insert",
+    "description":"Insert a new object in the database",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"(-r) retrieve",
+    "description":"Get a object from the database",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"(-u) update",
+    "description":"Updates a object from the database",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"(-d) delete",
+    "description":"Deletes a object from the database",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"(-b) back",
+    "description":"Takes you back to start",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"(-e) exit",
+    "description":"Exits the program",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  },
+  {
+    "name":"Message",
+    "description":"Sometimes some modes cannot execute because you are inside a critical step",
+    "type":"help",
+    "mode":"help",
+    "table":"help",
+    "subQuestionValue":"none",
+    "subQuestionName":[
+      "none"
+    ]
+  }
+]
